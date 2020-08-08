@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather API</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Получаем прогноз погоды по API</h1>
+        <select class="city__selector" onchange="city_check()">
+            <option value="Moscow">Moscow</option>
+            <option value="Kyiv">Kyiv</option>
+            <option value="Minsk">Minsk</option>
+            <option value="London">London</option>
+        </select>
+        <div class="row">
+            <div class="row__item">
+                <div class="item__data item__data-1"></div>
+                <div class="item__icon item__icon-1"></div>
+                <div class="item__temp item__temp-1">&deg;</div>
+                <div class="item__description item__description-1"></div>
+                <div class="item__pressure item__pressure-1"></div>
+            </div>
+            <div class="row__item">
+                <div class="item__data item__data-2"></div>
+                <div class="item__icon item__icon-2"></div>
+                <div class="item__temp item__temp-2">&deg;</div>
+                <div class="item__description item__description-2"></div>
+                <div class="item__pressure item__pressure-2"></div>
+            </div>
+            <div class="row__item">
+                <div class="item__data item__data-3"></div>
+                <div class="item__icon item__icon-3"></div>
+                <div class="item__temp item__temp-3">&deg;</div>
+                <div class="item__description item__description-3"></div>
+                <div class="item__pressure item__pressure-3"></div>
+            </div>
+            <div class="row__item">
+                <div class="item__data item__data-4"></div>
+                <div class="item__icon item__icon-4"></div>
+                <div class="item__temp item__temp-4">&deg;</div>
+                <div class="item__description item__description-4"></div>
+                <div class="item__pressure item__pressure-4"></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
